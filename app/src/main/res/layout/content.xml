@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00BFFF">
+
+    <EditText
+        android:id="@+id/nm_lengkap"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Nama Lengkap"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/nm_panggilan"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Nama Lengkap"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="No Telfon"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/mailuser"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/jkuser"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="jenis kelamin"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/alamatuser"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Alamat"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/pekerjaanuser"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="pekerjaan"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedcorner"
+        android:text="Update"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>
